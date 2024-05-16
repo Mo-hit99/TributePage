@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:bisque;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(87,153,209,1) 0%, rgba(0,212,255,1) 83%);
+}
+nav h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: .3rem 0;
+}
+
+.tribute-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.tribute-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.tribute-content{
+    height: 60vh;
+    width: 400px;
+}
+.tribute-content h1{
+    font-size: 1.9rem;
+}
+
+.tribute-content p{
+    margin-top: 1.8rem;
+    font-size: 1.5rem;
+}
+
+
+.img-container{
+    height: 80vh;
+    width: 500px;
+}
+
+.img-card{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+}
+.img-card p{
+    margin-top: .4rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.img-card img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    -webkit-box-shadow: -7px 10px 18px -8px rgba(0,0,0,1);
+    -moz-box-shadow: -7px 10px 18px -8px rgba(0,0,0,1);
+     box-shadow: -7px 10px 18px -8px rgba(0,0,0,1);
+}
+
+.more-img{
+     position: absolute;
+    height: 300px;
+    width: 700px;
+    top: 90px;
+    right: 100px;
+    transform: translate(20px ,40px);
+}
+
+.img-1{
+    width: 200px;
+    height: 200px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 10px -4px 6px -6px rgba(255,255,255,1);
+    -moz-box-shadow: 10px -4px 6px -6px rgba(255,255,255,1);
+    box-shadow: 10px -4px 6px -6px rgba(255,255,255,1);
+}    
+
+
+.content{
+    padding: 1.5rem;
+    height: 100vh;
+}
+.content h1{
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.content p{
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+footer{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
